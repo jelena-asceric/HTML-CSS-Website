@@ -1,0 +1,419 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family:Arial;
+	color:#666;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+ul{
+	list-style:none;
+}
+.centar{
+	width:1200px;
+	margin:0 auto;
+}
+.cistac{
+	clear:both;
+}
+/*
+#prvi{
+	position:fixed;
+	top:0px;
+}
+#drugi{
+	margin-top:200px;
+}*/
+
+/*Kontakt i radno vreme*/
+
+#plavaTraka{
+	width:100%;
+	background:#0000CD;
+	padding:10px 0px;
+	color:#F0F8FF;
+}
+#rInfo{
+	float:left;
+}
+#kInfo{
+	float:right;
+}
+
+/*Logo i navigacioni meni*/
+
+#logo{
+	float:left;
+	margin-top:20px;
+	margin-bottom:25px;
+	font-family: 'Pacifico', cursive;
+	font-size:25px;
+}
+#navigacija{
+	float:right;
+	margin-top:50px;
+}
+
+#navigacija ul li{
+	display:inline;
+	margin:0px 10px;
+}
+#navigacija ul li a{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:13px;
+}
+
+#navigacija ul .aktivanLink a, #navigacija ul li a:hover{
+	color:#0000CD;
+}
+
+.naziv{
+	
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+	margin-bottom:25px;
+	font-family: 'Pacifico', cursive;
+	font-size:25px;
+	color:#666;
+}
+.span{
+	float:right;
+	margin-top:60px;
+}
+/*Blok slika*/
+
+#slika{
+	width:100%;
+	background:url("../img/servis.jpg") no-repeat;
+	height:730px;
+	padding-top:60px;
+	background-position: center;
+}
+#providan{
+	background:rgba(255,255,255, 0.7);
+	border-radius:40px;
+	padding:40px 0px;
+	margin-top:280px;
+	width:340px;
+	background:rgba(0,0,0, 0.5);
+}
+.providanCentar{
+	width:290px;
+	margin:0px auto;
+}
+#providan:hover{
+	box-shadow:0px 0px 15px #252525;
+	border-radius:40px;	
+}
+.sadrzaj{
+	margin-top:10px;
+	margin-bottom:15px;	
+}
+.sadrzaj h1{
+	margin-bottom:45px;
+	color:#fff;
+}
+.sIkonica{
+	float:left;
+	height:32px;
+	width:32px;
+}
+.sIkonica i{
+	font-size:22px;
+	color:#3fbbc0;
+	
+}
+.sTekst{
+	float:right;
+	margin-left: 0px auto;
+	color:#fff;
+}
+.sTekst h3{
+	margin-bottom:40px;
+	margin-right:0px;
+}
+
+/* O nama */
+
+.ikoniceSadrzaj{
+	float:left;
+	width:277px;
+	padding:30px 0px;
+}
+.tekstSadrzaj{
+	width:800px;
+	margin:30px auto;
+	text-align:center;
+}
+.tekstSadrzaj span{
+    border-top:3px solid #3fbbc0;
+	display:block;
+	width:60px;
+	margin:0 auto;
+    margin-bottom:20px
+}
+.naslov{
+	color:#666;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-size:18px;
+	margin-bottom:10px;
+}
+.tekstSadrzaj h3{
+	font-size:30px;
+	margin-bottom:30px;
+}
+.tekstSadrzaj p, .ikonicaTekst p{
+	line-height:30px;
+	text-align: justify;
+}
+.desnaMargina{
+	margin-right:15px;
+}
+.obeMargine{
+	margin:0px 15px;
+}
+.levaMargina{
+	margin-left:15px;
+}
+.ikoniceSadrzaj .ikonice{
+	color:#3fbbc0;
+	border:3px solid #3fbbc0;
+}
+.ikonice{
+	border:3px solid #fff;
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	border-radius:50%;
+	margin-bottom:40px;
+}
+.ikonice i{
+	font-size:40px;
+	margin-left:30px;
+	margin-top:30px;
+}
+.ikoniceSadrzaj .ikonice:hover{
+	background:#3fbbc0;
+	color:#fff;
+}
+.ikoniceSadrzaj .ikonicaTekst{
+	text-align:center;
+	margin:0px 10px;
+}
+.ikonicaTekst h4{
+	text-transform:uppercase;
+	margin-bottom:40px;
+}
+.ikonicaTekst p{
+	margin-bottom:30px;
+
+}
+.ikonicaTekst a{
+	background: #3fbbc0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:12px;
+    border-radius:5px;
+	padding:10px 15px;	
+}
+
+/*Tekst i slika*/
+
+#slikaKockica{
+	background-image:url("../img/vozilo.jpg");
+	height:752px;
+	width:100%;
+	margin-top:20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	background-attachment:fixed;
+}
+.red{
+	width:100%;
+	position:relative;
+}
+.sivaKockica{
+	width:50%;
+	float:left;
+}
+.sivaKockica{
+	background:#f5f5f5;
+	padding:50px 0px;
+}
+.kockicaTekst{
+	width:70%;
+	margin:0 auto;
+}
+.kockicaTekst h2{
+	font-weight:normal;
+	margin-bottom:30px;
+}
+.kockicaTekst p{
+	line-height:30px;
+	margin-bottom:20px;
+	text-align: justify;
+}
+
+/*Kontakt*/
+
+.form-group input[type=text], input[type=email], textarea, option {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #3fbbc0;
+	border-radius: 4px;
+	resize: vertical;
+	margin-bottom: 5px;
+}
+select{
+	width: 102%;
+	padding: 12px;
+    border: 1px solid #3fbbc0;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 5px;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.button{
+    background: #3fbbc0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:12px;
+	margin-top:15px;
+    padding:10px 15px;
+    border-radius:9px;
+	margin-bottom:20px;
+}
+
+/*Brendovi*/
+.sivaPozadina{
+	width:100%;
+	background:#f7f7f8;
+	padding:10px 0px;
+}
+.brendovi{
+	float:left;
+	width:200px;
+	margin-top:20px;
+	margin-left:80px;	
+}
+.brendovi p{
+	margin-top:10px;
+	margin-left:95px;
+	margin-bottom:25px;
+	text-transform:uppercase;
+	color:#3fbbc0;
+}
+.brendovi a img{
+    margin:0px 35px;
+}
+
+/*Footer*/
+
+#footer{
+	width:100%;
+	background-color:#A9A9A9;
+	color:#fff;
+	padding:20px 0px;
+}
+#copy{
+	float:left;
+}
+#mreze{
+	float:right;
+}
+#mreze ul li{
+	display:inline;
+	margin:0px 10px;
+}
+#mreze ul li a{
+	color:#fff;
+	font-size:30px;
+}
+#mreze a{
+	color: white;
+    margin-right:20px;
+}
+#mreze a i:hover{
+    color: #3fbbc0;
+}
+
+/*GALERIJA GUME / gume.html  */
+
+.galerijaSlika{
+	width:330px;
+	float:left;
+	margin-bottom:10px;
+	overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.okvirGalerija{
+	margin:40px 100px;
+}
+.galerijaSlika img{
+	width:320px;
+	height:300px;
+	margin:0px 10px;
+	border-radius:10px;
+}
+.galerijaSlika .galerijaInfo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.galerijaSlika .galerijaInfo:after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    content: "";
+    background: #3fbbc0;
+    opacity: 0;
+    transition: 0.5s;
+  }
+.galerijaSlika .galerijaInfo:hover::after {
+    opacity: 0.5;
+	border-radius:10px;
+  }
+.galerijaSlika .galerijaInfo h3, .galerijaSlika .galerijaInfo small {
+    transform: translateY(100%);
+    opacity: 0;
+    display: block;
+    transition: 0.5s 0.2s;
+    color: #000000;
+    z-index: 2;
+    position: relative;
+}
+.galerijaSlika .galerijaInfo small {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+.galerijaSlika:hover .galerijaInfo h3,
+.galerijaSlika:hover .galerijaInfo small {
+  transform: translateY(0px);
+  opacity: 1;
+}
